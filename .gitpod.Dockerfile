@@ -1,7 +1,7 @@
-FROM gitpod/workspace-full
 
-USER gitpod
+FROM gitpod/workspace-full:2022-11-12-19-30-03
 
-RUN bash -c ". /home/gitpod/.sdkman/bin/sdkman-init.sh \
-             && sdk install java 8.0.242-zulu \
-             && sdk use java 8.0.242-zulu"
+SHELL ["/bin/bash", "-c"]
+RUN source "/home/gitpod/.sdkman/bin/sdkman-init.sh"  \
+    && sdk install java 8.0.352-zulu < /dev/null
+

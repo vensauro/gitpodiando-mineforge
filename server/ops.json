@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "cf5a9528-bf8f-3c1e-8a90-b1b0a8bc4493",
+    "name": "Leon",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "40da1936-fa4a-3bcc-a1f8-e7352ae0cf67",
+    "name": "vensauro",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "e2023cc4-2208-32f1-b9a1-6a4318e2f96f",
+    "name": "Melquisedeque",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
